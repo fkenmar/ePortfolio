@@ -4,8 +4,7 @@ function loadHome(){
     const jumbotron = $('<div>').attr
     ('class','jumbotron p-3 p-md-5 text-white rounded bg-dark').
     append( $('<div>').addClass('row').append( $('<div>').attr('class','col-md-6 px-0').
-    append( $('<h1>').addClass('display-4').text(`Welcome to Kenmar's Portfolio`) ).append( $('<p>').attr('class','lead my-3').text(`Projects from SpringBoard Software Engineering Bootcamp
-    to LaGuardia Community College's Computer Science Major map`) ) ) )
+    append( $('<h1>').addClass('display-4').text(`Welcome to Kenmar's Portfolio`) ).append( $('<p>').attr('class','lead my-3').text(`Under Construction ePortfolio`) ) ) )
     
 
     $('#mainBody').append(jumbotron.hide().fadeIn(2000))
@@ -19,7 +18,7 @@ function loadAboutMe(){
     $('#mainBody').empty()
 
     const titleText = 'Aspiring Software Engineer in the making'
-    const cardText = 'Coming from the bustling streets of Manila, Philippines and immigrating to Queens, NY at the age of 10, Kenmar Francisco came with a dream from when his parents gifted him a PC that he tinkered on so much that he developed a fascination with coding. Modding and cheating through games with programing loopholes, Kenmar developed a skill in coding where he applied to SpringBoard Software Engineer Coding Bootcamp during the end of senior year of high school. Armed with his life passion, Kenmar dreamed of showcasing his full-stack abilities'
+    const cardText = 'University at Buffalo CS Student'
     
 
 
